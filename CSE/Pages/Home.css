@@ -1,0 +1,94 @@
+.toxi {
+    display: flex;
+    padding-left: 60px;
+    padding-top: 55px;
+    box-sizing: border-box;
+}
+.toxi div {
+    display: block;
+    max-width: 520px;
+}
+.toxi div h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 69px;
+}
+.toxi div p {
+    margin-left: 6px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 34px;
+    color: rgba(251, 251, 251, 0.8);
+}
+.toxi img {
+    max-height: 450px;
+    max-width: 450px;
+    margin-right: 40px;
+    margin-left: auto;
+    padding-left: 15px;
+}
+.toxi div a {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #080a16;
+    border: solid 2px #E11C4F ;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.ctt {
+    margin-top: 40px;
+    display: flex;
+    margin-left: -2px;
+    max-width: 400px;
+}
+.ctt .cris {
+    max-width: 90px;
+    max-height: 30px;
+}
+.ctt .crisw {
+    max-width: 140px;
+    max-height: 30px;
+}
+@media screen and (max-width:1090px) {
+    .toxi img {
+        height: 390px;
+        width: 390px;
+    }
+}
+@media screen and (max-width:990px) {
+    .toxi .niw {
+        height: 0px;
+        width: 0px;
+    }
+    .toxi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+        padding-left: 0;
+    }
+    .toxi {
+      padding-right: 10px;
+    }
+}
+@media screen and (min-width: 450px) and (max-width: 990px) { 
+    .toxi {
+        padding-top: 52px;
+    }
+    .toxi div p { 
+        font-size: 1.5rem;
+        font-weight: 500;
+        line-height: 39px;
+    }
+    .toxi div h1 {
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 75px;
+    }
+}
